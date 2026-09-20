@@ -8,10 +8,10 @@ A full-stack Web3 demo — mint and showcase ERC-721 NFTs on **Sepolia testnet**
 
 | What | Where |
 | --- | --- |
-| 🌐 Live demo | https://web3-nft-gallery.vercel.app _(replace with your own Vercel URL)_ |
-| 💻 Source | https://github.com/YOUR_USERNAME/web3-nft-gallery |
-| 📜 Contract on Sepolia | https://sepolia.etherscan.io/address/YOUR_CONTRACT_ADDRESS |
-| 🏠 Portfolio (parent project) | https://web3-portfolio.vercel.app |
+| 🌐 Live demo | https://web3-nft-gallery.vercel.app |
+| 💻 Source | https://github.com/guangkuo80-star/web3-nft-gallery |
+| 📊 Wallet Dashboard (companion) | https://web3-wallet-dashboard-xi.vercel.app |
+| 🏠 Portfolio (parent project) | https://web3-portfolio-pied.vercel.app |
 
 ## Tech stack
 
@@ -255,4 +255,4 @@ MIT — free to fork, adapt, and use as your own portfolio piece. Attribution ap
 
 ## Author
 
-Frontend engineer transitioning to Web3. See the [portfolio](https://web3-portfolio.vercel.app) for other demos and contact info.
+Frontend engineer transitioning to Web3. See the [portfolio](https://web3-portfolio-pied.vercel.app) for other demos and contact info.
