@@ -1,6 +1,6 @@
 # Sepolia NFT Gallery
 
-A full-stack Web3 demo — mint and showcase ERC-721 NFTs on **Sepolia testnet**. Built as a portfolio piece for a frontend engineer transitioning into Web3.
+Mint and showcase ERC-721 NFTs on **Sepolia testnet**. A Solidity contract plus a Next.js frontend, built as a portfolio piece while moving from frontend into Web3.
 
 > ⚠️ **Testnet only.** Sepolia ETH has no monetary value. Do **not** deploy this contract to mainnet without an audit.
 

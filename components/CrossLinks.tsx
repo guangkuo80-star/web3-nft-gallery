@@ -18,9 +18,9 @@ export default function CrossLinks() {
         Part of a connected set
       </h2>
       <p className="mb-5 text-sm text-white/55">
-        Mint here → see your NFTs in the Wallet Dashboard → browse everything
-        from the Portfolio hub. One wallet, one design system, one Sepolia
-        testnet.
+        Mint an NFT here, then open the Wallet Dashboard to see it listed among
+        your holdings. Both demos run on the Sepolia testnet and share the same
+        wallet and styling.
       </p>
 
       <div className="grid gap-3 sm:grid-cols-3">

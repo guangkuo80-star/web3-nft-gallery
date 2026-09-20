@@ -19,8 +19,8 @@ export default function Home() {
           <span className="text-gradient">ERC-721 NFT</span> on Sepolia.
         </h1>
         <p className="mt-4 max-w-2xl text-base text-white/65">
-          A full-stack Web3 demo: custom Solidity contract deployed via Hardhat,
-          metadata on IPFS, and a Next.js frontend wired with{" "}
+          A custom Solidity contract deployed with Hardhat, metadata stored on
+          IPFS, and a Next.js frontend wired with{" "}
           <span className="font-mono text-accent2">wagmi · viem · RainbowKit</span>
           . Connect any wallet, mint a token, and see it appear in your gallery
           below.
