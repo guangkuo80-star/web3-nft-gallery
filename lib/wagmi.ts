@@ -9,7 +9,7 @@ const projectId =
   "1b6c6cfb7b1d0f5a2f62a6dfe2e43105";
 
 const sepoliaRpc =
-  process.env.NEXT_PUBLIC_SEPOLIA_RPC_URL ??
+  process.env.NEXT_PUBLIC_SEPOLIA_RPC_URL?.trim() ||
   "https://rpc.sepolia.org";
 
 export const config = getDefaultConfig({

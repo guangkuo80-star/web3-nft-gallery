@@ -1,10 +1,11 @@
 const portfolio =
-  process.env.NEXT_PUBLIC_DEMO_PORTFOLIO ??
+  process.env.NEXT_PUBLIC_DEMO_PORTFOLIO?.trim() ||
   "https://web3-portfolio-pied.vercel.app";
 const dashboard =
-  process.env.NEXT_PUBLIC_DEMO_WALLET_DASHBOARD ??
+  process.env.NEXT_PUBLIC_DEMO_WALLET_DASHBOARD?.trim() ||
   "https://web3-wallet-dashboard-xi.vercel.app";
-const gh = process.env.NEXT_PUBLIC_GITHUB_USERNAME ?? "guangkuo80-star";
+const gh =
+  process.env.NEXT_PUBLIC_GITHUB_USERNAME?.trim() || "guangkuo80-star";
 
 /**
  * Cross-demo navigation — ties this gallery back to the rest of the

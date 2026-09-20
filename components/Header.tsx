@@ -5,7 +5,7 @@ import { useAccount, useChainId } from "wagmi";
 import { sepolia } from "wagmi/chains";
 
 const portfolio =
-  process.env.NEXT_PUBLIC_DEMO_PORTFOLIO ??
+  process.env.NEXT_PUBLIC_DEMO_PORTFOLIO?.trim() ||
   "https://web3-portfolio-pied.vercel.app";
 
 export default function Header() {
