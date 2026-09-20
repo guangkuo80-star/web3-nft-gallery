@@ -2,6 +2,7 @@ import MintPanel from "@/components/MintPanel";
 import Gallery from "@/components/Gallery";
 import ContractInfo from "@/components/ContractInfo";
 import Reveal from "@/components/Reveal";
+import CrossLinks from "@/components/CrossLinks";
 
 export default function Home() {
   return (
@@ -96,6 +97,10 @@ export default function Home() {
       </Reveal>
 
       <Gallery />
+
+      <Reveal delay={60}>
+        <CrossLinks />
+      </Reveal>
     </div>
   );
 }

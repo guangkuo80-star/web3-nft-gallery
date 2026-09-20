@@ -4,6 +4,10 @@ import { ConnectButton } from "@rainbow-me/rainbowkit";
 import { useAccount, useChainId } from "wagmi";
 import { sepolia } from "wagmi/chains";
 
+const portfolio =
+  process.env.NEXT_PUBLIC_DEMO_PORTFOLIO ??
+  "https://web3-portfolio-pied.vercel.app";
+
 export default function Header() {
   const { isConnected } = useAccount();
   const chainId = useChainId();
@@ -25,6 +29,14 @@ export default function Header() {
         </div>
 
         <div className="flex items-center gap-3">
+          <a
+            href={portfolio}
+            target="_blank"
+            rel="noreferrer"
+            className="hidden font-mono text-[11px] text-white/50 transition hover:text-accent2 md:inline-block"
+          >
+            ← Portfolio
+          </a>
           {wrongNetwork && (
             <span className="hidden rounded-full border border-amber-500/30 bg-amber-500/10 px-3 py-1 font-mono text-[10px] uppercase tracking-wider text-amber-400 md:inline-block">
               Switch to Sepolia
