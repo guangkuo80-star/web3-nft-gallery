@@ -5,7 +5,8 @@ import { sepolia, hardhat, mainnet } from "wagmi/chains";
 import { getDefaultConfig } from "@rainbow-me/rainbowkit";
 
 const projectId =
-  process.env.NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID?.trim() || "public-demo-id";
+  process.env.NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID?.trim() ||
+  "1b6c6cfb7b1d0f5a2f62a6dfe2e43105";
 
 const sepoliaRpc =
   process.env.NEXT_PUBLIC_SEPOLIA_RPC_URL ??
